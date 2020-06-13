@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: cluster.nacos.com:8848
+      config:
+        server-addr: cluster.nacos.com:8848
+        file-extension: yaml
+        refresh-enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
