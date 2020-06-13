@@ -1,9 +1,4 @@
-server:
-  port: 50001
-
 spring:
-  application:
-    name: link-nacos-server
-  main:
-    allow-bean-definition-overriding: true
+  profiles:
+    active: dev		#激活哪个配置文件
 
